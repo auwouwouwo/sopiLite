@@ -1,0 +1,25 @@
+{
+  "name": "sopilite",
+  "version": "1.0.0",
+  "description": "Dibuat untuk keperluan tugas oleh Lisa & Fajar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auwouwouwo/sopiLite.git"
+  },
+  "author": "f&l",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/auwouwouwo/sopiLite/issues"
+  },
+  "homepage": "https://github.com/auwouwouwo/sopiLite#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0"
+  }
+}
