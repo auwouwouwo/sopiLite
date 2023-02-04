@@ -16,4 +16,4 @@ app.use(router);
 server();
 db.on("error", (e)=>logError(e));
 db.once("open", ()=>console.log("Database telah terkoneksi..."));
-app.listen(5000, ()=>console.log("Server terkoneksi: Port 5000..."));
+app.listen(5000, ()=>console.log("Server => Port 5000..."));
