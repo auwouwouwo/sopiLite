@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html{
+  overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Roboto;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.register-content {
+  display: flex;
+  justify-content: center;
+  margin: 180px;
+  margin-top: 78px;
+  border-radius: 12px;
+}
+
+.form-content {
+  background-color: #ffffff;
+  width: 500px;
+  margin-left: -90px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px 0px;
+ 
+}
+
+.form-group {
+  padding: 4px;
+  color:#0D6EFD;
+}
+input{
+  height: 47px;
+  width: 400px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  border: 0px;
+  color: #353535f9;
+  padding-left: 15px;
+}
+
+.text-form h2{
+  align-items: center;
+}
+
+#root{
+  margin: 0px;
+  padding: 0px;
+}
+
+::placeholder{
+  padding-left: 0px;
+  font-size: 18px;
+}
+
+.image-register{
+  border-radius: 12px;
+  width: 550px;
+  z-index: 0;
+  z-index: -1;
+  position: relative;
+  
+}
+
+.linier-image{
+  background: linear-gradient(to left, rgba(0, 0, 0, 100), rgba(0, 0, 0, 0));
+  height: auto;
+  backdrop-blur: 10px;
+  border-radius: 12px;
+}
+
+#checkbox{
+  width: 17px;
+  margin-right: 20px;
+}
+
+.checkbox{
+  display:flex;
+  justify-content:start;
+  align-items: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.btn-daftar{
+  width: 400px;
+  height: 50px;
+  padding: 7px; 
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./asset/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto Bold;
+  src: url(./asset/Roboto/Roboto-Bold.ttf);
+}
+
+h1{
+  font-weight: bold;
+  text-align: center;
 }
