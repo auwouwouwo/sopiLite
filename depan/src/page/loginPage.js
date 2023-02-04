@@ -1,7 +1,7 @@
 const Login = ()=>{
     return(
         <>
-            <div className="container-login-form">
+            <div className="container">
                 <form className="login-form">
                    <input type="text" className="username" placeholder="Username"/>
                    <span/>
