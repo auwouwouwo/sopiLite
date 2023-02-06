@@ -1,25 +1,17 @@
-import Card from "../component/card";
+import Navbar from '../component/navbar'
+import Card from '../component/card'
 
-const Home = ()=>{
+
+const homePage =()=>{
     return(
         <>
-            <div className="container">
-                <div className="row">
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                </div>
-            </div>
-            <div className="container">
-                <div className="row">
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                </div>
-            </div>
+        <nav className="navbar bg-primary">
+        <section className="container  " style={{color:'#ffffff'}}>
+            <Navbar />
+        </section>
+        </nav>        
         </>
-    )};
+    )
+}
 
-export default Home;
+export default homePage

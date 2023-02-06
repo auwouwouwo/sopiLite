@@ -17,4 +17,13 @@ exports.postRegister = async(req,res)=>{
     }catch(e){
         res.status(400).json({message: e.message});
     };
-};
+}
+
+exports.getLogin = async(req,res)=>{
+    try{
+        const get = await Login.find();
+        res.json(get)
+    }catch(e){
+        res.status(400).json({message: e.message});
+    }
+}

@@ -1,5 +1,6 @@
 
 const Register = ()=>{
+    const [HasAgree, setHasAgreed]=react.useState(false)
     return (
     <>
     <div className="text-form">
@@ -28,13 +29,12 @@ const Register = ()=>{
            
         </div>
         <div className="form-group checkbox">
-        <input type="checkbox" name="checkbox" id="checkbox" />      
+        <input type="checkbox" name="checkbox" id="checkbox" value={HasAgree} onChange={()=>setHasAgreed(!HasAgree)}/>      
         <label htmlFor="checkbox">I Agree</label>
         </div>
         <div className="form-group">
-        <button className="btn btn-primary btn-daftar">Daftar</button>
+        <button style={{color:'white'}} className="btn btn-primary btn-daftar" isEn>DAFTAR</button>
         </div>
-        
     </form> 
     </div>
     </>
