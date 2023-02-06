@@ -8,3 +8,10 @@ const registerSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model("Register",registerSchema);
+
+const loginSchema = new mongoose.Schema({
+    username: {type:String, required:true},
+    password: {type:String, required:true}
+})
+
+module.exports= mongoose.model("Login",loginSchema);
