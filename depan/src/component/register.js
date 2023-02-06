@@ -3,7 +3,7 @@ const Register = ()=>{
     return (
     <>
     <div className="text-form">
-    <h1 className="text-primary ">Register</h1>
+    <h1 className="text-primary ">Daftar</h1>
     <form action="">
         <div className="form-group">
             <label htmlFor="username" >Username</label>
@@ -32,14 +32,12 @@ const Register = ()=>{
         <label htmlFor="checkbox">I Agree</label>
         </div>
         <div className="form-group">
-        <button style={{color:'white'}} className="btn btn-primary btn-daftar">DAFTAR</button>
+        <button className="btn btn-primary btn-daftar">Daftar</button>
         </div>
         
     </form> 
     </div>
     </>
-    )
-    
-}
+    )}
 
 export default Register 

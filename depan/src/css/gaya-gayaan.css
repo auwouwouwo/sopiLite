@@ -93,3 +93,38 @@
     color: white;
     border: none;
 }
+
+.text-primary{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #0D6EFD;
+    text-align: left;
+}
+
+.form-group{
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.form-group input{
+    border: 2px solid #C4C4C4;;
+    background-color: white;
+    color: #C4C4C4;;
+}
+
+.form-group button{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.card{
+    height: 395px;
+    width: 331px;
+    border-radius: 20px;
+    text-align: left;
+}
