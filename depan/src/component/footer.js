@@ -6,15 +6,17 @@ const Footer =()=>{
     return(
         <>
         <footer>
+        <h1>Shop</h1>
         <div className="footer-content">
+        
             <div className="sosmed">
-            <a href="#"><img src={Facebook} alt="" /></a>    
+            <a href="#"><img src={Facebook} alt="" style={{width:'80px',fill:'white'}}  /></a>    
             </div>
             <div className="sosmed">
-            <a href="#"><img src={Instagram} alt="" /></a>    
+            <a href="#"><img src={Instagram} alt="" style={{width:'80px',fill:'white'}} /></a>    
             </div>
             <div className="sosmed">
-            <a href="#"><img src={Whatapps} alt="" /></a>    
+            <a href="#"><img src={Whatapps} alt="" style={{width:'80px',fill:'white'}}/></a>    
             </div>
         </div>
         </footer>

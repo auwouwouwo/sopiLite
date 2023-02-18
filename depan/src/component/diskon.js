@@ -1,7 +1,8 @@
 function Diskon ({Diskon}){
     return(
         <>
-        <div className={`${Diskon}`}>12.12</div>
+            <div className={`${Diskon}`}>12.12</div>
+        
         </>
     )
 }
